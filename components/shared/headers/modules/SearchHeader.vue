@@ -10,7 +10,6 @@
                 class="form-control"
                 type="text"
                 placeholder="I'm looking for..."
-                @keyup="handleSearchProduct"
             />
             <v-progress-circular
                 v-if="isLoading"
