@@ -69,7 +69,5 @@ export default {
     server: {
         port: 4002,
         host: 'localhost'
-    },
-
-    target: 'static'
+    }
 };
