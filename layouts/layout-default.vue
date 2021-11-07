@@ -1,6 +1,21 @@
 <template lang="html">
     <client-only>
         <v-app>
+            <v-system-bar
+                absolute
+                color="orange lighten-2"
+                class="pa-4"
+                height="48"
+                app
+            >
+                <div class="d-block text-center ma-4" style="font-size: 1.6rem">
+                    <span>📢</span>
+                    Project of
+                    <span class="font-weight-bold"
+                        >Elizah Laine Kayla C. Alquizar</span
+                    >
+                </div>
+            </v-system-bar>
             <v-main>
                 <header-default />
                 <header-mobile />
